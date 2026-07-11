@@ -151,7 +151,7 @@ Transformations applied:
 
 ## Star Schema
 
-![Star Schema](architecture/star_schema.png)
+![Star Schema](architecture/star schema.png)
 
 **Design Decisions:**
 - Surrogate keys (`ROW_NUMBER()`) on all dimensions — integer join performance, source system independence
@@ -163,7 +163,7 @@ Transformations applied:
 
 ## Pipeline Orchestration
 
-![Pipeline DAG](architecture/pipeline_dag.png)
+![Pipeline DAG](architecture/pipeline_image.png)
 
 Built using Databricks Jobs with dependency-aware DAG:
 
