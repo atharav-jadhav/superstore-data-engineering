@@ -151,7 +151,7 @@ Transformations applied:
 
 ## Star Schema
 
-![Star Schema](architecture/star schema.png)
+![Star Schema](architecture/star_schema.png)
 
 **Design Decisions:**
 - Surrogate keys (`ROW_NUMBER()`) on all dimensions — integer join performance, source system independence
